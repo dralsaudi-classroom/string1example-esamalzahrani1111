@@ -30,7 +30,7 @@ public class String1 {
             append(s.getChar(i));
     }
     public boolean equal(String1 s) {
-        boolean equals= s.length == this.length;
+        boolean equals= s.length() == this.length();
         if (equals)
         for (int i =0; i<this.size-1;i++){
             if (!(s.getChar(i) == this.getChar(i)))
