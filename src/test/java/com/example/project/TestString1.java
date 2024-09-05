@@ -9,7 +9,7 @@ public class TestString1 {
    @Test
    public void testString1()
    {
-      String1 s = new String1();
+      String1 s = new String1(); //test
       s.append('a');
       s.append('b');
       s.append('c');
