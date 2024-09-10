@@ -32,14 +32,13 @@ public class String1 {
     public boolean equal(String1 s) {
 	  if (s.length()-1 == this.size)
 		  return false;
-	    else {
-		    for (int i =0; i<this.size;i++)
-		    {
-			    if(str[i] != s.getChar(i))
-				    return false;}
+	for (int i =0; i<=this.size;i++)
+	          {
+		   if(str[i] != s.getChar(i))
+				    return false;
+		  }
 		    return true;
-				    }
-    }
+	    }
     public void reverse() {
         char temp1;
         for (int i=0,k=this.size; i<this.size/2;i++,k--)
