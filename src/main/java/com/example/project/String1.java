@@ -32,7 +32,7 @@ public class String1 {
     public boolean equal(String1 s) {
         boolean equals= s.length()-1 == this.size();
         if (equals)
-        for (int i =0; i<this.size-1;i++){
+        for (int i =0; i<=this.size;i++){
             if (!(s.getChar(i) == this.getChar(i)))
                 equals = false;
         }
