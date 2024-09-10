@@ -30,13 +30,15 @@ public class String1 {
             append(s.getChar(i));
     }
     public boolean equal(String1 s) {
-        boolean equals= s.length()-1 == this.size();
-        if (equals)
-        for (int i =0; i<=this.size;i++){
-            if (!(s.getChar(i) == this.getChar(i)))
-                equals = false;
-        }
-        return equals;
+	  if (s.length()-1 == this.size)
+		  return false;
+	    else {
+		    for (int i =0; i<this.size;i++)
+		    {
+			    if(str[i] != s.getChar(i))
+				    return false;}
+		    return true;
+				    }
     }
     public void reverse() {
         char temp1;
