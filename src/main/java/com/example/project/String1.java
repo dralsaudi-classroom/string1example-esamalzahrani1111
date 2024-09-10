@@ -41,7 +41,7 @@ public class String1 {
 	    }
     public void reverse() {
         char temp1;
-        for (int i=0,k=this.size; i<this.size/2;i++,k--)
+        for (int i=0,k=this.size; i<=this.size/2;i++,k--)
         {
             temp1 = str[k];
             str[k] = str[i]; 
